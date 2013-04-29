@@ -8,6 +8,8 @@
 *.gls
 *.xdy
 book_main.pdf
+cover_back.pdf
+cover_front.pdf
 temp/
 auto/
 src-tex/auto/
