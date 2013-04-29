@@ -5,23 +5,69 @@
   babelLanguage=british,
 ]{aruno-gist}
 
+\title{Forest Path}
+\subtitle{}
+\author{}
+\date{2013-04-29}
+\ISBN{978-1-908444-37-0}
+\editionInfo{\textit{Third edition}, 10,000 copies, \the\year, Printed in Malaysia}
+
+\usepackage{mylayout}
+
 \begin{document}
+
+%% Frontmatter
+%% ===========
 
 \frontmatter
 
-copyright
-\clearpage
+%% Title page
+%% ----------
+%% subtitle, editor, translator, preface by, introduction by, publisher
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/titlepage.tex}
+
+%% Copyright page
+%% --------------
+%% publisher info, edition info, ISBN, etc.
+
+\cleartoverso
+\thispagestyle{empty}
+\input{./src-tex/copyright-abhayagiri.tex}
+
+%% Acknowledgements
+%% ----------------
+%% * acknowledgement of sponsors
+
+\cleartorecto
+\thispagestyle{empty}
+\input{./src-tex/acknowledgements.tex}
+
+%% Main matter
+%% ===========
 
 \mainmatter
 
 \chapterNote{A Dhamma talk given at Abhayagiri Monastery in September of 2012 by Pasanno Bhikkhu.}
-\chapter{Ajahn Chah's Teachings On Nature}
+\chapter[Ajahn Chah's Teachings On Nature]{Ajahn Chah's\newline \soChapter{Teachings On Nature}}
+\markright{Pasanno Bhikkhu}
 \input{./src-tex/teachings-on-nature.tex}
+
+%% Backmatter
+%% ==========
+%% Glossary, Notes, Index...
 
 \backmatter
 
-\clearpage
-copyright details
+\bookmarksetup{startatroot}
+
+%% Copyright details
+%% -----------------
+
+\cleartorecto
+\input{./src-tex/copyright-details-abhayagiri.tex}
 
 \end{document}
 
