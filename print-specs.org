@@ -1,0 +1,16 @@
+#+TITLE: Print Specs for Teachings On Nature
+
+* Print Specs for Teachings on Nature
+ 
+| Title:               | Teachings on Nature           |
+| Language:            | English                       |
+| Author:              | Pasanno Bhikkhu               |
+| Page width:          | 135mm                         |
+| Page height:         | 120mm                         |
+| Spine width:         | n/a                           |
+| Mainmatter:          | 20 pages                      |
+| Mainmatter material: | cream 70gsm                   |
+| Cover material:      | 300gsm 2 side coated art card |
+| Cover finishing:     | Matt                          |
+| Binding:             | saddle stitch                 |
+
