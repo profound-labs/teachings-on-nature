@@ -10,7 +10,8 @@
 book_main.pdf
 cover_back.pdf
 cover_front.pdf
+docs
 temp/
 auto/
 src-tex/auto/
-pdf-keep/proofing/
+publish/proofing/

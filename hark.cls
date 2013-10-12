@@ -1,7 +1,13 @@
-% Aruno Gist Class
+% Hark Class
 %
-% Maintained by:
-% Gambhiro Bhikkhu <gambhiro@ratanagiri.org.uk>
+% A document class for small booklets or quote collections.
+%
+% https://github.com/profound-labs/hark
+%
+% http://profound-labs.github.io/projects/hark/
+%
+% (c) Gambhiro Bhikkhu, 2013
+% gambhiro@ratanagiri.org.uk
 %
 % LPPL LaTeX Pubic Project Licence
 %
@@ -11,7 +17,7 @@
 % ==============
 
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{aruno-gist}[2013/04/13 v0.3 A document class for small booklets or quote collections.]
+\ProvidesClass{hark}[2013/04/13 v0.4 A document class for small booklets or quote collections.]
 
 % ========================
 % Preliminary Declarations
